@@ -22,6 +22,12 @@ body{
 
     
 }
+
+/*
+al acceder al selector id h1 se modifican todos los h1 contenidos en "formulario"
+
+*/
+
 #formulario h1{
     padding-top:px ;
     font-size: 40px;
@@ -30,5 +36,31 @@ body{
 
 
 input[type ='email']{
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(220, 221, 221);
 }
+
+input[type = 'submit']{
+    margin-top: 20px;
+    background-color: rgb(26, 177, 204);
+    box-shadow: 3px 3px 3px darkblue;
+    
+}
+
+/*
+El box-shadow sirve para dar una sombra a la caja 
+
+
+*/
+
+input[type= 'submit']:hover{
+    cursor:pointer ;
+    opacity: 60%;
+    
+}
+
+/*
+Con esta manera de trabajar todas las etiquetas input de type email serán afectadas!
+
+
+
+*/
